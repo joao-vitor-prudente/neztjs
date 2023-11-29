@@ -1,4 +1,4 @@
-import type { PipeFunction, RouteData } from "@lib";
+import type { PipeFunction, RouteData } from "@neztjs";
 
 export interface IPipeMixin {
   applyPipes(request: Request, route: RouteData): Request;

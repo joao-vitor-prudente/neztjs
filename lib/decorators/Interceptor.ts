@@ -1,4 +1,4 @@
-import type { InterceptorFunction } from "@lib";
+import type { InterceptorFunction } from "@neztjs";
 
 export function Interceptor(interceptor: InterceptorFunction): MethodDecorator {
   return function (

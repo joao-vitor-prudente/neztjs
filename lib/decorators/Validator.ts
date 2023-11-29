@@ -1,4 +1,4 @@
-import type { ValidatorFunction } from "@lib";
+import type { ValidatorFunction } from "@neztjs";
 
 export function Validator(validator: ValidatorFunction): MethodDecorator {
   return function (

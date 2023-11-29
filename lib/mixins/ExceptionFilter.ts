@@ -1,6 +1,6 @@
-import { lambda } from "@lib/lambda";
+import { lambda } from "@neztjs/lambda";
 
-import type { HandlerFunction, RouteData } from "@lib";
+import type { HandlerFunction, RouteData } from "@neztjs";
 
 export interface IExceptionFilterMixin {
   applyExceptionFilter(request: Request, route: RouteData): HandlerFunction;

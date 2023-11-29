@@ -1,4 +1,4 @@
-import type { ExceptionFilterFunction } from "@lib";
+import type { ExceptionFilterFunction } from "@neztjs";
 
 export function ExceptionFilter(
   exceptionFilter: ExceptionFilterFunction

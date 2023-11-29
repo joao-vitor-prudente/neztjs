@@ -1,6 +1,6 @@
-import { lambda } from "@lib/lambda";
+import { lambda } from "@neztjs/lambda";
 
-import type { RouteData } from "@lib";
+import type { RouteData } from "@neztjs";
 
 export interface IGuardMixin {
   applyGuards(request: Request, route: RouteData): boolean;

@@ -1,23 +1,23 @@
-import { pipeMixin } from "@lib/mixins/Pipe";
-import { guardMixin } from "@lib/mixins/Guard";
-import { validatorMixin } from "@lib/mixins/Validator";
-import { interceptorMixin } from "@lib/mixins/Interceptor";
-import { exceptionFilterMixin } from "@lib/mixins/ExceptionFilter";
-import { Method, Code, JSON_HEADERS } from "@lib/constants";
+import { pipeMixin } from "@neztjs/mixins/Pipe";
+import { guardMixin } from "@neztjs/mixins/Guard";
+import { validatorMixin } from "@neztjs/mixins/Validator";
+import { interceptorMixin } from "@neztjs/mixins/Interceptor";
+import { exceptionFilterMixin } from "@neztjs/mixins/ExceptionFilter";
+import { Method, Code, JSON_HEADERS } from "@neztjs/constants";
 
-import type { IPipeMixin } from "@lib/mixins/Pipe";
-import type { IGuardMixin } from "@lib/mixins/Guard";
-import type { IValidatorMixin } from "@lib/mixins/Validator";
-import type { IInterceptorMixin } from "@lib/mixins/Interceptor";
-import type { IExceptionFilterMixin } from "@lib/mixins/ExceptionFilter";
+import type { IPipeMixin } from "@neztjs/mixins/Pipe";
+import type { IGuardMixin } from "@neztjs/mixins/Guard";
+import type { IValidatorMixin } from "@neztjs/mixins/Validator";
+import type { IInterceptorMixin } from "@neztjs/mixins/Interceptor";
+import type { IExceptionFilterMixin } from "@neztjs/mixins/ExceptionFilter";
 
-export * from "@lib/constants";
-export * from "@lib/decorators/Pipe";
-export * from "@lib/decorators/Route";
-export * from "@lib/decorators/Guard";
-export * from "@lib/decorators/Validator";
-export * from "@lib/decorators/Interceptor";
-export * from "@lib/decorators/ExceptionFilter";
+export * from "@neztjs/constants";
+export * from "@neztjs/decorators/Pipe";
+export * from "@neztjs/decorators/Route";
+export * from "@neztjs/decorators/Guard";
+export * from "@neztjs/decorators/Validator";
+export * from "@neztjs/decorators/Interceptor";
+export * from "@neztjs/decorators/ExceptionFilter";
 
 export type GuardFunction = (request: Request) => boolean;
 export type PipeFunction = (request: Request) => Request;

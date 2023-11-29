@@ -1,4 +1,4 @@
-import type { PipeFunction } from "@lib";
+import type { PipeFunction } from "@neztjs";
 
 export function Pipe(pipe: PipeFunction): MethodDecorator {
   return function (

@@ -4,8 +4,8 @@
     "module": "esnext",
     "target": "esnext",
     "paths": {
-      "@lib/*": ["./lib/*"],
-      "@lib": ["./lib"]
+      "@neztjs/*": ["./lib/*"],
+      "@neztjs": ["./lib"]
     },
     "moduleResolution": "bundler",
     "moduleDetection": "force",
@@ -21,6 +21,8 @@
     "allowJs": true,
     "types": [
       "bun-types" // add Bun global
-    ]
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   }
 }

@@ -1,6 +1,6 @@
-import { Method } from "@lib/constants";
+import { Method } from "@neztjs/constants";
 
-import type { IHttpLib } from "@lib";
+import type { IHttpLib } from "@neztjs";
 
 export function Route(
   httpLib: IHttpLib,

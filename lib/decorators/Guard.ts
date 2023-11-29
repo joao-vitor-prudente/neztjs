@@ -1,4 +1,4 @@
-import type { GuardFunction } from "@lib";
+import type { GuardFunction } from "@neztjs";
 
 export function Guard(guard: GuardFunction): MethodDecorator {
   return function (

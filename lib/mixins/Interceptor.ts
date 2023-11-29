@@ -1,6 +1,6 @@
-import { lambda } from "@lib/lambda";
+import { lambda } from "@neztjs/lambda";
 
-import type { RouteData } from "@lib";
+import type { RouteData } from "@neztjs";
 
 export interface IInterceptorMixin {
   applyInterceptors(request: Request, route: RouteData): void;
